@@ -6,6 +6,8 @@ Redis::Namespace provides an interface to a namespaced subset of your [redis][] 
 ~~~ irb
 require 'redis-namespace'
 # => true
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FEZO801%2Fredis-namespace.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FEZO801%2Fredis-namespace?ref=badge_shield)
+
 
 redis_connection = Redis.new
 # => #<Redis client v3.1.0 for redis://127.0.0.1:6379/0>
@@ -104,3 +106,7 @@ While there are many authors who have contributed to this project, the following
 [redis]: http://redis.io
 [redis-rb]: https://github.com/redis/redis-rb
 [issue tracker]: https://github.com/resque/redis-namespace/issues
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FEZO801%2Fredis-namespace.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FEZO801%2Fredis-namespace?ref=badge_large)
